@@ -2,14 +2,6 @@ const mobileMenu = document.getElementById('mobile-menu');
 const navbar = document.getElementById('navbar');
 const navLinks = navbar ? navbar.querySelectorAll('a') : [];
 
-
-function toggleNavbar() {
-    if (!navbar) return;
-
-    navbar.classList.toggle('active');
-    navbar.style.display = navbar.classList.contains('active') ? 'flex' : '';
-}
-
 function closeNavbar() {
     if (!navbar) return;
 
