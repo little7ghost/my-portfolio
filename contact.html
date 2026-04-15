@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Najma Washi | Contact
+    </title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/all.min.js"
+        integrity="sha512-6BTOlkauINO65nLhXhthZMtepgJSghyimIalb+crKRPhvhmsCdnIuGcVbR5/aQY2A+260iC1OPy1oCdB6pSSwQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="navbar-container">
+            <h3 id="logo">Najma Washi</h3>
+            <div id="navbar">
+                <a href="./index.html">HOME</a>
+                <a href="./work.html">WORK</a>
+                <a href="./contact.html">CONTACT</a>
+            </div>
+        </div>
+        <div id="mobile-menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+
+    <section id="hero-section">
+        <div id="hero-content">
+            <span id="hero-title">Let's <span>connect!</span></span>
+            <p style="margin-top: 40px;margin-bottom: 40px; width: 80%; line-height: 26px; letter-spacing: 1.5px;">
+                I'm always excited to discuss new opportunities, collaborate on projects, or just have a chat about technology.
+                Whether you're looking for a MERN stack developer or want to share ideas, I'd love to hear from you!
+            </p>
+            <div id="hero-buttons">
+                <a href="mailto:naz.ma@student.edu">
+                    <i class="fa-solid fa-envelope"></i> EMAIL ME
+                </a>
+                <a href="https://linkedin.com/in/najma-washi" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i> LINKEDIN
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-form-section">
+        <div id="contact-container">
+            <h2>Get In Touch</h2>
+            <p>Fill out the form below and I'll get back to you as soon as possible.</p>
+
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">
+                        <i class="fa-solid fa-user"></i> Name
+                    </label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">
+                        <i class="fa-solid fa-envelope"></i> Email
+                    </label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">
+                        <i class="fa-solid fa-tag"></i> Subject
+                    </label>
+                    <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">
+                        <i class="fa-solid fa-message"></i> Message
+                    </label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or just say hello..." required></textarea>
+                </div>
+
+                <button type="submit" id="submit-btn">
+                    <i class="fa-solid fa-paper-plane"></i> Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+    <div id="footer">
+        <span>2026 NAJMA | MERN PORTFOLIO</span>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
