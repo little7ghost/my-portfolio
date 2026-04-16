@@ -2,11 +2,11 @@ const mobileMenu = document.getElementById('mobile-menu');
 const navbar = document.getElementById('navbar');
 const navLinks = navbar ? navbar.querySelectorAll('a') : [];
 
-function closeNavbar() {
+function toggleNavbar() {
     if (!navbar) return;
 
-    navbar.classList.remove('active');
-    navbar.style.display = '';
+    navbar.classList.toggle('active');
+    navbar.style.display = navbar.classList.contains('active') ? 'flex' : '';
 }
 
 // Toggle menu on hamburger click
@@ -20,7 +20,7 @@ if (mobileMenu && navbar) {
 if (navLinks.length && navbar) {
     navLinks.forEach(link => {
         link.addEventListener('click', function () {
-            closeNavbar();
+            toggleNavbar();
         });
     });
 }
