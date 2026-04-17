@@ -203,8 +203,8 @@
     height: 250px;
     border-radius: 16px;
     object-fit: fill;
-    background-image: url(https://img.freepik.com/free-photo/kirkjufell-sunrise-iceland-beautiful-landscape_335224-685.jpg?semt=ais_hybrid&w=740&q=80);
-}
+    background-image: url(https://img.freepik.com/free-photo/flat-lay-office-desk-assortment-with-empty-screen-tablet_23-2148707960.jpg?semt=ais_hybrid&w=740);
+    background-size: cover;}
 #footer {
     display: flex;
     align-items:center;
