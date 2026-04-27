@@ -1,17 +1,43 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 #navbar {
     color: white;
-    padding:18px;
-    font-weight:bold;
+    padding: 18px;
+    font-weight: bold;
 }
+
 #bg-img {
+    background-image: url("https://img.freepik.com/free-photo/aerial-view-business-data-analysis-graph_53876-165166.jpg?semt=ais_hybrid&w=740&q=80");
+    opacity: 0.8;
+    width: 100%;
+    height: 100vh;
     background-size: cover;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwS8yCi4pEcbapARCsJ7q6dyP1lfmia7aJ9ld83YdQtA&s");
-    opacity: 0.6;
-    width: 100vw;
-    height: 60vh;
+    overflow-x: hidden;
+}
+#service-tag { 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-top: 3%;
+}
+.card {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.card img {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+}
+.card p {
+    color:black;
+    padding: 10px;
 }
